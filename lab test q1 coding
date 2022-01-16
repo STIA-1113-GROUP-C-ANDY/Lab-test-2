@@ -1,0 +1,25 @@
+package labTest1;
+import java.util.Scanner;
+
+public class CheckOddEven {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner scan = new Scanner(System.in);
+		 int number;
+		 
+		 System.out.print("Enter a number: ");
+		 number = scan.nextInt();
+		 
+		 if (number  == 0)
+			 System.out.println(number + " is even");
+
+		 else
+			 System.out.println( number + "is odd" );
+		 
+		 System.out.println("Bye!");
+		 
+		 
+	}
+
+}
